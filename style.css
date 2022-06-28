@@ -1,0 +1,574 @@
+.header {
+	display:flex;
+	align-items:center;
+	padding:15px;
+	background:white;
+	position:fixed;
+	z-index:1;
+	width:100%;
+	box-shadow:0px 0px 10px gray;
+	
+}
+.menu {
+	padding-left:100px;
+	word-spacing:100px;
+	font-size:20px;
+	font-family:Arial, sans;
+	color:gray;
+}
+.logo_image {
+	padding-left:110px;
+}
+
+.slogan {
+	background:#fffaec;
+	font-size:20px;
+	display:flex;
+	flex-direction: row;
+}
+.slogan_text {
+	padding-left:120px;
+	padding-top:150px;
+	font-size:32px;
+	font-family:Arial, sans-serif;
+}
+.slogan_image {
+	padding-left:89px;
+}
+.title1 {
+	padding:20px;
+	display:flex;
+	padding-left:120px;
+	font-size:40px;
+	font-family:Arial, sans-serif;
+	background:white;
+	font-weight:bolder;
+}
+
+.text1 {
+	padding-left:120px;
+	font-size:18px;
+	font-family:Arial, sans-serif;
+	font-weight:bolder;
+	line-height: 1.5;
+}
+.text2 {
+	padding-left:110px;
+	font-size:18px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	color:grey;
+	line-height: 1.5;
+}
+.about_the_team1 {
+	display:flex;
+	flex-direction: row;
+	background:white;
+}
+.title2 {
+	padding-top:50px;
+	display:flex;
+	padding-left:120px;
+	font-size:40px;
+	font-family:Arial, sans-serif;
+	background:white;
+	font-weight:bolder;
+}
+
+.block1 {
+	display:flex;
+	flex-direction:row;
+}
+.block1-1 {
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+}
+.block1-2 {
+	display:flex;
+	flex-direction:column;
+
+}
+.block1-2-1 {
+	padding-left:5px;
+	font-size:35px;
+	font-family:Arial, sans-serif;
+	font-weight:bold;
+	line-height: 1.5;
+}
+.block1-2-2 {
+	padding-left:5px;
+	font-size:15px;
+	font-family:Arial, sans-serif;
+	font-weight:bold;
+	line-height: 1.5;
+}
+.block2 {
+	padding-left:5px;
+	padding-top:15px;
+	font-size:13px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	line-height: 1.5;
+	color:grey;
+	background:#f7f7f7;
+}
+.card-item {
+	display:flex;
+	flex-direction:column;
+	width:30%;
+	box-shadow:4px 4px 14px gray;
+}
+
+.cards {
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-around;
+	padding-top:50px;
+
+}
+.our_team_text {
+	display:flex;
+	flex-direction:column;
+}
+.our_team {
+	display:flex;
+	flex-direction:row;
+	padding-top:50px;
+	padding-left:120px;
+}
+.our_team_title {
+	font-size:40px;
+	font-family:Arial, sans-serif;
+	background:white;
+	font-weight:bolder;
+}
+.our_team_main_text {
+	font-size:18px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	line-height: 1.5;
+}
+.our_team a{
+	color:grey;
+}
+.our_team_image {
+	padding-left:150px;
+}
+.numbers_card {
+	display:flex;
+	flex-direction:column;
+	background:#fff0f0;
+	margin-top:100px;
+	
+}
+.numbers_title {
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	font-size:40px;
+	font-family:Arial, sans-serif;
+	font-weight:bold;
+	color:#f0b080;
+	margin-top:40px;
+	
+	
+}
+.numbers_columns {
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-around;
+	padding-left:55px;
+	padding-right:55px;
+}
+.column1-1 {
+	display:flex;
+	flex-direction:row;
+	font-size:40px;
+	font-family:Arial, sans-serif;
+	font-weight:bold;
+	color:#f0b080;
+	padding-top:45px;
+
+}
+.numbers_column {
+	height:140px;
+}
+.column2-2 {
+	display:flex;
+	flex-direction:row;
+	font-size:20px;
+	font-family:Arial, sans-serif;
+	font-weight:bold;
+	color:#f0b080;
+	padding-top:5px;
+}
+.column3-3 {
+	font-size:18px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	color:grey;
+	height:31px;
+	padding-top:5px;
+}
+.company_brochure {
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	font-size:18px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	color:black;
+	
+	margin-top:20px;
+	padding-top:50px;
+	margin-bottom:40px;
+	
+}
+.company_brochure a {
+	color:grey;
+}
+.advertising_company {
+	
+	
+	
+}
+.gateway_to_discoveries {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding:0px 100px 0px 100px;
+}
+.gateway_title {
+	font-size:40px;
+	font-family:Arial, sans-serif;
+	font-weight:bolder;
+	padding-top:100px;
+}
+.gateway_text {
+	font-size:18px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	color:grey;
+	padding-top:10px;
+	text-align:center;
+	line-height: 1.5;
+}
+
+.gateway_cards {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	width:100%;
+	padding:40px 50px 100px 50px;
+	
+	
+}
+.gateway_card_item {
+	box-shadow:2px 2px 10px gray;
+}
+.gateway_card_image {
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	padding:20px 50px 20px 50px;
+
+}
+.gateway_card_text {
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	padding:10px 20px 25px 20px;
+	text-align:center;
+	font-size:16px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	line-height: 1.5;
+	color:grey;
+}
+.family_reunification{
+	background:#f3faf9;
+	
+	
+}
+.family_reunification_title{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	font-size:40px;
+	font-family:Arial, sans-serif;
+	background:white;
+	font-weight:bolder;
+	background:#f3faf9;
+	padding-top:50px;
+	
+}
+.family_reunification a {
+	color:white;
+	text-decoration:none;
+	font-size:16px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	padding:5px 20px;
+}
+.family_reunification_button {
+	display:flex;
+	justify-content:center;
+	padding-top:20px;
+}
+.family_reunification_button_design {
+	background:#ff6500;
+	border-radius:50px;
+	height:35px;
+	border:none;
+}
+.family_reunification_cards {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding:40px 50px 100px;
+	
+}
+.family_reunification_card {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	border-radius:15px;
+	box-shadow:2px 2px 10px gray;
+}
+.family_reunification_img {
+	
+}
+.family_reunification_img_design {
+	width:505px;
+	border-radius:15px 15px 0px 0px;
+}
+.family_reunification_card_row1 {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	width:100%;
+}
+.family_reunification_card_row2 {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	width:100%;
+	padding-top:40px;
+}
+.family_reunification_quote {
+	font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+	text-align:center;
+	padding:15px 5px;
+	position:relative;
+}
+.parentheses1 {
+	position:absolute;
+	top:10px;
+	right:270px;
+}
+.parentheses2 {
+	position:absolute;
+	top:10px;
+	right:-40px;
+}
+.parentheses3 {
+	position:absolute;
+	right:300px;
+	bottom:35px;
+}
+.parentheses4 {
+	position:absolute;
+	right:-10px;
+}
+.parentheses5 {
+	position:absolute;
+	right:340px;
+	bottom:40px;
+}
+.parentheses6 {
+	position:absolute;
+	right:15px;
+	bottom:3px;
+}
+.parentheses7 {
+	position:absolute;
+	top:10px;
+	right:315px;
+}
+.parentheses8 {
+	position:absolute;
+	right:-35px;
+}
+.family_reunification_text {
+	font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color: grey;
+	text-align:center;
+	padding:0px 5px 20px 5px;
+}
+.MyHeritage_laboratory {
+	display:flex;
+	flex-direction:row;
+	padding:100px 0px;
+}
+.MyHeritage_laboratory_titletext {
+	padding-left:120px;
+}
+.MyHeritage_laboratory_title {
+	font-size:40px;
+	font-family:Arial, sans-serif;
+	background:white;
+	font-weight:bolder;
+}
+.MyHeritage_laboratory_text {
+	font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+	color: grey;
+    line-height: 1.5;
+	padding-top:30px;
+}	
+.MyHeritage_laboratory_img {
+	margin-left:125px;
+}
+.charity {
+	background:#f0f6f2;
+	padding:0px 273px 100px;
+}
+.charity_title {
+	display:flex;
+	justify-content:center;
+	padding:50px 0px;;
+	font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+	color:#2d7559;
+	text-align:center;
+}
+.charity_card {
+	display:flex;
+	justify-content:center;
+	background:white;
+	border-radius:8px;
+	box-shadow:4px 4px 14px grey;
+}
+.charity_img {
+	padding:30px 0px; 	
+}
+.charity_card_right_side {
+	margin-left:30px;
+}
+.charity_card_title {
+	font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+	padding-top:30px;
+}
+.charity_card_text {
+	padding-top:15px;
+	font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: grey;
+    line-height: 1.5;
+}
+.charity_card_button {
+	padding-top:15px;
+}
+.charity_card_button_design {
+	background:#2d7559;
+	border-radius:15px;
+	height:35px;
+	border:none;
+	
+}
+.charity_card_button a {
+	color:white;
+	text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    padding: 5px 20px;
+}
+footer {
+	background:#646362;
+}
+.footer_top {
+	display:flex;
+	flex-direction:row;
+}
+.footer_colum {
+	display:flex;
+	flex-direction:column;
+	padding:50px 0px 0px 120px;
+}
+.footer_title_link {
+	font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+.footer_title_link a {
+	color:#c4c2bb;
+	text-decoration:none;
+}
+.footer a:hover {
+	text-decoration:underline;
+}
+.footer_text_link {
+	display:flex;
+	flex-direction:column;
+	padding-top:15px;
+	font-size: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: 2.5;
+    
+}
+.footer_text_link a {
+	color:#c4c2bb;
+	text-decoration:none;
+}
+.footer_middle {
+	display:flex;
+	padding:30px 0px 0px 120px;
+}
+.footer_middle_text {
+	padding:10px 0px 0px 5px;
+	font-size: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+	color:#788280;
+}
+.footer_middle_link {
+	display:flex;
+	padding-left:600px;
+}
+.footer_middle_link_twiter {
+	padding-left:10px;
+}
+.footer_bottom {
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	padding-top:30px;
+	padding-bottom:50px;
+	font-size: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+	letter-spacing:5px;
+}
+.footer_bottom a {
+	color:#c4c2bb;
+	text-decoration:none;
+}
