@@ -1,0 +1,21 @@
+header {
+	display:flex;
+	align-items:center;
+	padding:15px;
+	background:white;
+	position:fixed;
+	z-index:1;
+	width:100%;
+	box-shadow:0px 0px 10px gray;
+	
+}
+.menu {
+	padding-left:100px;
+	word-spacing:100px;
+	font-size:20px;
+	font-family:Arial, sans;
+	color:gray;
+}
+.logo_image {
+	padding-left:110px;
+}
