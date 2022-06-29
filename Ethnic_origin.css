@@ -19,3 +19,124 @@ header {
 .logo_image {
 	padding-left:110px;
 }
+.Ethnic_origin {
+	padding-top:150px;
+	padding-left:120px; 
+	color:#5E6062;
+	background-image:url(Ethnic_origin_bg.png);
+	border:1px;
+	padding-bottom:90px;
+}
+.Ethnic_origin_title {
+	font-size:45px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+}
+.Ethnic_origin_text {
+	font-size:35px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+}
+.Ethnic_origin_button {
+	padding-top:10px;
+}
+.Ethnic_origin_button_design {
+	background:#DA54DA;
+	border-radius:25px;
+	height:45px;
+	border:none;
+	
+}
+.Ethnic_origin_button  a {
+	color:white;
+	text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding:20px;
+}
+.percentage_distribution {
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+	background-image:url(percentage_distribution_of_your_origin1.png);
+	color:#5E6062;
+	padding:80px 75px;
+	border:1px;
+	padding-bottom:0px;
+}
+.percentage_distribution_title {
+	font-size:45px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	padding-right:75px;
+	
+}
+.percentage_distribution_text {
+	font-size:19px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	padding-top:50px;
+	line-height: 1.5;
+}
+.line1 {
+	position:absolute;
+	bottom:-135px;
+	right:510px;
+}
+.Genetic_groups {
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+	background-image:url(Genetic_groups.png);
+	color:#5E6062;
+	padding:80px 75px;
+	border:1px;
+	padding-bottom:80px;
+}
+.Genetic_groups_title {
+	font-size:45px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	padding-right:55px;
+	
+}
+.Genetic_groups_text {
+	font-size:19px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	padding-top:50px;
+	line-height: 1.5;
+}
+.line2 {
+	position:absolute;
+	top:1250px;
+	left:780px;
+}
+.regional_groups {
+	font-size:45px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	color:#5E6062;
+	padding-top:70px;
+	padding-left:120px;
+	padding-bottom:180px;	
+	background-image:url(regional_groups.png);
+	border:1px;
+	
+}
+.regional_groups_region{
+	padding-top:50px;
+	color:#DA54DA;
+	
+}
+.line3 {
+	position:absolute;
+	bottom:-1180px;
+	left:120px;
+}
+.s_button {
+	position:absolute;
+	bottom:-1350px;
+	left:120px;
+}
