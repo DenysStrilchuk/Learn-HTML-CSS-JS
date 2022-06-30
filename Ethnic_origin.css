@@ -122,6 +122,7 @@ header {
 	padding-left:120px;
 	padding-bottom:180px;	
 	background-image:url(regional_groups.png);
+	background-size:100%;
 	border:1px;
 	
 }
@@ -140,3 +141,50 @@ header {
 	bottom:-1350px;
 	left:120px;
 }
+.founders_of_the_family {
+	text-align:center;
+	background-image:url(founders_of_the_family.png);
+	background-size:100%;
+	padding-top:120px;
+	border:1px;
+	padding-bottom:200px;
+}
+.founders_of_the_family_title{
+	font-size:45px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	color:#5E6062;
+}
+.founders_of_the_text {
+	font-size:18px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	color:#5E6062;
+	line-height: 1.5;
+	padding-top:25px;
+}
+.distribution_of_your_ancestry{
+	padding:100px 0px 100px;
+	text-align:center;
+	font-size:35px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	color:#5E6062;
+}
+.distribution_of_your_ancestry_button {
+	padding-top:10px;
+}
+.distribution_of_your_ancestry_button_design {
+	background:#DA54DA;
+	border-radius:25px;
+	height:45px;
+	border:none;
+	
+}
+.distribution_of_your_ancestry_button  a {
+	color:white;
+	text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding:20px;
