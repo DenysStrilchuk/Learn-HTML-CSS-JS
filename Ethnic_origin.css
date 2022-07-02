@@ -9,30 +9,39 @@ header {
 	box-shadow:0px 0px 10px gray;
 	
 }
-.menu {
-	padding-left:100px;
-	word-spacing:100px;
-	font-size:20px;
+ul {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  list-style-type:none;
+}
+li {
+  margin-left:100px;
+  font-size:20px;
 	font-family:Arial, sans;
-	color:gray;
+}
+li a {
+  text-decoration: none;
+  color:gray;
 }
 .logo_image {
 	padding-left:110px;
 }
 .Ethnic_origin {
-	padding-top:150px;
+	padding-top:100px;
 	padding-left:120px; 
 	color:#5E6062;
 	background-image:url(assets/Ethnic_origin_bg.png);
 	border:1px;
-	padding-bottom:90px;
+	padding-bottom:100px;
 }
-.Ethnic_origin_title {
+h1 {
 	font-size:45px;
 	font-family:Arial, sans-serif;
 	font-weight:normal;
+  margin-bottom:-15px;
 }
-.Ethnic_origin_text {
+h2 {
 	font-size:35px;
 	font-family:Arial, sans-serif;
 	font-weight:normal;
@@ -59,20 +68,18 @@ header {
 	display:flex;
 	flex-direction:column;
 	align-items:flex-end;
+  text-align:left;
 	background-image:url(assets/percentage_distribution_of_your_origin1.png);
 	color:#5E6062;
-	padding:80px 75px;
+	padding:20px 75px;
 	border:1px;
 	padding-bottom:0px;
 }
-.percentage_distribution_title {
-	font-size:45px;
-	font-family:Arial, sans-serif;
-	font-weight:normal;
-	padding-right:75px;
-	
+.percentage_distribution h1{
+  padding-right:75px;
 }
-.percentage_distribution_text {
+h3 {
+  position:relative;
 	font-size:19px;
 	font-family:Arial, sans-serif;
 	font-weight:normal;
@@ -81,110 +88,95 @@ header {
 }
 .line1 {
 	position:absolute;
-	bottom:-135px;
-	right:510px;
+	top:15px;
+	left:0;
 }
 .Genetic_groups {
 	display:flex;
 	flex-direction:column;
 	align-items:flex-end;
+  text-align:left;
 	background-image:url(assets/Genetic_groups.png);
 	color:#5E6062;
 	padding:80px 75px;
 	border:1px;
-	padding-bottom:80px;
+	padding-bottom:0px;
 }
-.Genetic_groups_title {
-	font-size:45px;
-	font-family:Arial, sans-serif;
-	font-weight:normal;
-	padding-right:55px;
-	
-}
-.Genetic_groups_text {
-	font-size:19px;
-	font-family:Arial, sans-serif;
-	font-weight:normal;
-	padding-top:50px;
-	line-height: 1.5;
+.Genetic_groups h1 {
+  padding-right:55px;
 }
 .line2 {
 	position:absolute;
-	top:1250px;
-	left:780px;
+	top:15px;
+	left:0px;
 }
 .regional_groups {
-	font-size:45px;
-	font-family:Arial, sans-serif;
-	font-weight:normal;
+  position:relative;
 	color:#5E6062;
 	padding-top:70px;
 	padding-left:120px;
 	padding-bottom:180px;	
 	background-image:url(assets/regional_groups.png);
-	background-size:100%;
 	border:1px;
-	
-}
-.regional_groups_region{
-	padding-top:50px;
-	color:#DA54DA;
+  padding-bottom:75px;
 	
 }
 .line3 {
 	position:absolute;
-	bottom:-1180px;
-	left:120px;
+	top:5px;
+	left:0px;
+}
+.regional_groups h2{
+  position:relative;
+  font-size:45px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	color:#DA54DA;
+  padding-top:50px;
 }
 .s_button {
 	position:absolute;
-	bottom:-1350px;
-	left:120px;
+	top:170px;
+	left:0px;
 }
 .founders_of_the_family {
 	text-align:center;
+  color:#5E6062;
 	background-image:url(assets/founders_of_the_family.png);
 	background-size:100%;
-	padding-top:120px;
+	padding-top:90px;
 	border:1px;
-	padding-bottom:200px;
+	padding-bottom:180px;
 }
-.founders_of_the_family_title{
-	font-size:45px;
-	font-family:Arial, sans-serif;
-	font-weight:normal;
-	color:#5E6062;
+.founders_of_the_family a {
+  color:#DA54DA;
 }
-.founders_of_the_text {
-	font-size:18px;
-	font-family:Arial, sans-serif;
-	font-weight:normal;
-	color:#5E6062;
-	line-height: 1.5;
-	padding-top:25px;
-}
-.distribution_of_your_ancestry{
+.distribution_of_your_ancestry {
 	padding:100px 0px 100px;
 	text-align:center;
-	font-size:35px;
-	font-family:Arial, sans-serif;
-	font-weight:normal;
 	color:#5E6062;
 }
-.distribution_of_your_ancestry_button {
-	padding-top:10px;
-}
-.distribution_of_your_ancestry_button_design {
-	background:#DA54DA;
-	border-radius:25px;
+button {
+  background:#DA54DA;
+  border-radius:25px;
 	height:45px;
+  width:185px;
 	border:none;
-	
 }
-.distribution_of_your_ancestry_button  a {
-	color:white;
+button a {
+  color:white;
 	text-decoration: none;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    padding:20px;
+  font-size: 18px;
+  font-weight: normal;
+  padding:20px;
+}
+
+
+
+
+
+
+
+
+
+
