@@ -142,13 +142,12 @@ button {
 	height:45px;
   width:185px;
 	border:none;
-}
-button a {
-  color:white;
-	text-decoration: none;
   font-size: 18px;
   font-weight: normal;
-  padding:20px;
+}
+button a {
+	text-decoration: none;
+  color:white;
 }
 footer {
 	background:#595959;
