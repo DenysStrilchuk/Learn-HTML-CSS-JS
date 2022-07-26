@@ -1,0 +1,248 @@
+header {
+	display:flex;
+	align-items:center;
+	padding:15px;
+	background:white;
+	position:fixed;
+	z-index:1;
+	width:100%;
+	box-shadow:0px 0px 10px gray;
+}
+.header_menu1 {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  list-style-type:none;
+}
+.header_menu1_1 {
+  padding-left:100px;
+  font-size:20px;
+	font-family:Arial, sans;
+}
+.header_menu1_1 a {
+  text-decoration: none;
+  color:gray;
+}
+.logo_image {
+	padding-left:110px;
+}
+.Ethnic_origin {
+	padding-top:100px;
+	padding-left:120px; 
+	color:#5E6062;
+	background-image:url(assets/Ethnic_origin_bg.png);
+	border:1px;
+	padding-bottom:100px;
+}
+h1 {
+	font-size:45px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+  margin-bottom:-15px;
+}
+h2 {
+	font-size:35px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+}
+.percentage_distribution {
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+  text-align:left;
+	background-image:url(assets/percentage_distribution_of_your_origin1.png);
+	color:#5E6062;
+	padding:20px 75px;
+	border:1px;
+	padding-bottom:0px;
+}
+.percentage_distribution h1{
+  padding-right:75px;
+}
+h3 {
+  position:relative;
+	font-size:19px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	padding-top:50px;
+	line-height: 1.5;
+}
+.line1 {
+	position:absolute;
+	top:15px;
+	left:0;
+}
+.Genetic_groups {
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+  text-align:left;
+	background-image:url(assets/Genetic_groups.png);
+	color:#5E6062;
+	padding:80px 75px;
+	border:1px;
+	padding-bottom:0px;
+}
+.Genetic_groups h1 {
+  padding-right:55px;
+}
+.line2 {
+	position:absolute;
+	top:15px;
+	left:0px;
+}
+.regional_groups {
+  position:relative;
+	color:#5E6062;
+	padding-top:70px;
+	padding-left:120px;
+	padding-bottom:180px;	
+	background-image:url(assets/regional_groups.png);
+	border:1px;
+  padding-bottom:75px;
+}
+.line3 {
+	position:absolute;
+	top:5px;
+	left:0px;
+}
+.regional_groups h2{
+  position:relative;
+  font-size:45px;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	color:#DA54DA;
+  padding-top:50px;
+}
+.s_button {
+	position:absolute;
+	top:170px;
+	left:0px;
+}
+.founders_of_the_family {
+	text-align:center;
+  color:#5E6062;
+	background-image:url(assets/founders_of_the_family.png);
+	background-size:100%;
+	padding-top:90px;
+	border:1px;
+	padding-bottom:180px;
+}
+.founders_of_the_family a {
+  color:#DA54DA;
+}
+.distribution_of_your_ancestry {
+	padding:100px 0px 100px;
+	text-align:center;
+	color:#5E6062;
+}
+button {
+  background:#DA54DA;
+  border-radius:25px;
+	height:45px;
+  width:185px;
+	border:none;
+  font-size: 18px;
+  font-weight: normal;
+}
+button a {
+	text-decoration: none;
+  color:white;
+}
+footer {
+	background:#595959;
+  padding-top:50px;
+}
+.main_content {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+.links {
+  display:flex;
+  flex-direction:column;
+}
+.footer_columns {
+  display:flex;
+  flex-direction:column;
+}
+.footer_columns a:hover {
+	text-decoration:underline;
+}
+.footer_links1 {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  list-style:none;
+}
+.footer_links1 a{
+  color:#c4c2bb;
+  text-decoration:none;
+}
+.footer_links2 {
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  list-style:none;
+  padding-top:10px;
+}
+.footer_links2 a{
+  color:#c4c2bb;
+	text-decoration:none;
+}
+.footer_links3 {
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  list-style:none;
+  padding-top:10px;
+}
+.footer_links3 a{
+  color:#eb693d;
+}
+.b_color {
+  background:#93bc56;
+}
+footer button {
+  background:#DA54DA;
+  border-radius:25px;
+	height:30px;
+  width:175px;
+	border:none;
+}
+footer button a {
+  color:white;
+	text-decoration: none;
+  font-size:12px;
+  font-weight: normal;
+  padding:20px;
+}
+h4 {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+	color:#9b978a;
+  margin:0px;
+}
+.footer_bottom {
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	padding-top:30px;
+	padding-bottom:30px;
+	font-size: 12px;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+	letter-spacing:5px;
+}
+.footer_bottom a {
+	color:#7b8680;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
